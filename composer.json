@@ -1,7 +1,7 @@
 {
-    "name": "predisNic/predisNic",
+    "name": "predisnic/predisnic",
     "type": "library",
-    "description": "A flexible and feature-complete Redis client for PHP.",
+    "description": "A flexible and feature-complete Redis client for PHP. Added missing commands.",
     "keywords": ["nosql", "redis", "predis"],
     "homepage": "http://github.com/predishq/predis",
     "license": "MIT",
