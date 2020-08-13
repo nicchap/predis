@@ -118,6 +118,8 @@ use Predis\Profile\ProfileInterface;
  * @method string zcount($key, $min, $max)
  * @method string zincrby($key, $increment, $member)
  * @method int    zinterstore($destination, array|string $keys, array $options = null)
+ * @method array  zpopmin($key, $count = null)
+ * @method array  zpopmax($key, $count = null)
  * @method array  zrange($key, $start, $stop, array $options = null)
  * @method array  zrangebyscore($key, $min, $max, array $options = null)
  * @method int    zrank($key, $member)

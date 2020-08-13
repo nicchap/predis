@@ -248,6 +248,8 @@ class RedisVersion320 extends RedisProfile
             'ZRANGEBYLEX' => 'Predis\Command\ZSetRangeByLex',
             'ZREMRANGEBYLEX' => 'Predis\Command\ZSetRemoveRangeByLex',
             'ZREVRANGEBYLEX' => 'Predis\Command\ZSetReverseRangeByLex',
+        		'ZPOPMAX' => 'Predis\Command\ZSetPopMax',
+        		'ZPOPMIN' => 'Predis\Command\ZSetPopMin',
 
             /* commands operating on hashes */
             'HSCAN' => 'Predis\Command\HashScan',

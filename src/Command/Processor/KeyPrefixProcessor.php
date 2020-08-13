@@ -166,6 +166,8 @@ class KeyPrefixProcessor implements ProcessorInterface
             'GEODIST' => 'static::first',
             'GEORADIUS' => 'static::georadius',
             'GEORADIUSBYMEMBER' => 'static::georadius',
+            'ZPOPMAX' => 'static::first',
+            'ZPOPMIN' => 'static::first',
         );
     }
 
